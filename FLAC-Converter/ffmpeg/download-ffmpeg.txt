@@ -1,0 +1,17 @@
+You'll need to download ffmpeg for the actual conversion to work. I've provided a .zip for the windows executable.
+
+If that doesn't work/you're running a different OS, go to https://ffmpeg.org
+
+Make sure to download your ffmpeg from "Get packages & executable files" - if you do "Download Source Code" you'll have to build it yourself.
+
+Once downloaded, open your start menu and search for "Environment Variables". Then, click "Edit the system environment variables".
+
+Next, click the "Environment Variables" button. Find the "Path" variable, then click edit (or double click).
+
+Click "New", then add the path to the "bin" directory inside the ffmpeg folder
+
+Click Ok until all the popdowns are gone
+
+Open a cmd and type "ffmpeg -version" to verify your information
+
+If you see version information, ffmpeg has been installed correctly
